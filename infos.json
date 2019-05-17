@@ -1,0 +1,12 @@
+{
+  "displayName" : "Last public ip",
+  "author" : ["Valentin DEVILLE"],
+  "contributor" : ["Gille DUBOIS", "Valentin COSSE"],
+  "supportedAgent" : ["Windows"],
+  "version" : "1.0",
+  "licence" : "GPLv2",
+  "description" : {
+    "fr" : "Remonte la dernière ip publique connue par l'agent",
+    "en" : "Retrieve latest public ip from agent"
+  }
+}

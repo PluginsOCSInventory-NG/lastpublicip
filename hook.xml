@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hookstore>
+    <hook type="lang">
+        <value>en_GB</value>
+    </hook>
+    <hook type="cdentry">
+        <identifier>cd_lastpublicip</identifier>
+        <translation>41011</translation>
+        <category>other</category>
+        <available>lastpublicip</available>
+    </hook>
+</hookstore>
