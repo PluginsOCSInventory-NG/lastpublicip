@@ -1,8 +1,8 @@
 {
   "displayName" : "Last public ip",
   "author" : ["Valentin DEVILLE"],
-  "contributor" : ["Gille DUBOIS", "Valentin COSSE"],
-  "supportedAgent" : ["Windows"],
+  "contributor" : ["Gille DUBOIS", "Valentin COSSE"],["Frank BOURDEAU"],
+  "supportedAgent" : ["Windows"],["Unix"],
   "version" : "1.0",
   "licence" : "GPLv2",
   "description" : {
