@@ -29,6 +29,11 @@
 	echo open_form($form_name);
 	$list_fields=array( 'Address' => 'IP',
 	'City' => 'CITY',
+	'Region' => 'REGION',
+	'Country' => 'COUNTRY',
+	'Lat/Lng' => 'LOC',
+	'Postal' => 'POSTAL',
+	'Timezone' => 'TIMEZONE',
 	'Organization' => 'ORG',
 	);
 	$list_col_cant_del=$list_fields;

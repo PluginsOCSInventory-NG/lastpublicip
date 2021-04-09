@@ -10,6 +10,11 @@ function extension_install_lastpublicip()
     $commonObject -> sqlQuery("CREATE TABLE lastpublicip (ID INTEGER NOT NULL AUTO_INCREMENT, HARDWARE_ID INTEGER NOT NULL,
                                 IP VARCHAR(255) NOT NULL,
                                 CITY VARCHAR(255) NOT NULL,
+                                REGION VARCHAR(255) DEFAULT NULL,
+                                COUNTRY VARCHAR(255) DEFAULT NULL,
+                                LOC VARCHAR(255) DEFAULT NULL,
+                                POSTAL VARCHAR(255) DEFAULT NULL,
+                                TIMEZONE VARCHAR(255) DEFAULT NULL,
                                 ORG VARCHAR(255) DEFAULT NULL,
                                 PRIMARY KEY (ID,HARDWARE_ID)) ENGINE=INNODB;");
 }
