@@ -18,6 +18,11 @@ $DATA_MAP{lastpublicip} = {
    fields => {
         IP => {},
         CITY => {},
+        REGION => {},
+        COUNTRY => {},
+        LOC => {},
+        POSTAL => {},
+        TIMEZONE => {},
         ORG => {}
     }
 };

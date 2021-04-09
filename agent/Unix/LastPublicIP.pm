@@ -60,6 +60,11 @@ sub lastpublicip_inventory_handler {
      {
          IP    => [$info->{ip}],
          CITY  => [$info->{city}],
+         REGION  => [$info->{region}],
+         COUNTRY  => [$info->{country}],
+         LOC  => [$info->{loc}],
+         POSTAL  => [$info->{postal}],
+         TIMEZONE  => [$info->{timezone}],
          ORG   => [$info->{org}],
      };
 }
