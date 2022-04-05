@@ -6,7 +6,7 @@
     <hook type="cdentry">
         <identifier>cd_lastpublicip</identifier>
         <translation>41011</translation>
-        <category>other</category>
+        <category>network</category>
         <available>lastpublicip</available>
     </hook>
 </hookstore>
