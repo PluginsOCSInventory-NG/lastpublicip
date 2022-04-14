@@ -1,6 +1,7 @@
 # Plugin "Get IP" OCSInventory
 # Author: Valentin COSSE & Valentin DEVILLE
 
+[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072
 
 $myjson = Invoke-RestMethod -Uri https://www.ipinfo.io/json
 
