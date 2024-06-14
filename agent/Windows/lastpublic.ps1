@@ -2,13 +2,13 @@
 # Author: Valentin COSSE & Valentin DEVILLE
 
 
-$myjson = Invoke-RestMethod -Uri https://www.ipinfo.io/json
+$myjson = Invoke-RestMethod -Uri https://ipinfo.io/json
 
-$xml = '<LASTPUBLICIP>'
-$xml += '<IP>' + $myjson.ip + '</IP>'
-$xml += '<CITY>' + $myjson.city + '</CITY>'
-$xml += '<ORG>' + $myjson.org + '</ORG>'
-$xml += '</LASTPUBLICIP>'
+$xml = "<LASTPUBLICIP>`n"
+$xml += "<IP>" + $myjson.ip + "</IP>`n"
+$xml += "<CITY>" + $myjson.city + "</CITY>`n"
+$xml += "<ORG>" + $myjson.org + "</ORG>`n"
+$xml += "</LASTPUBLICIP>`n"
 
 
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
